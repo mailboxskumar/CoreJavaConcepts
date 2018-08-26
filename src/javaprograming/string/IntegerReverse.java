@@ -15,8 +15,7 @@ public class IntegerReverse {
 		}
 		System.out.println(rev);
 		
-		//2nd Method
-		
+		//2nd Method		
 		System.out.println(new StringBuffer(String.valueOf(num)).reverse());
 	}
 }

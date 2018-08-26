@@ -6,7 +6,7 @@ public class StringReverse {
 	static String temp = "";
 
 	public static void main(String[] args) {
-		
+
 		// 1st Method
 
 		for (int i = s.length() - 1; i >= 0; i--) {
@@ -24,9 +24,8 @@ public class StringReverse {
 		String ret = recursiveMethod(s);
 		System.out.println(ret);
 	}
-
+	
 	static String recursiveMethod(String str) {
-		
 		if ((null == str) || (str.length() <= 1)) {
 			return str;
 		}
