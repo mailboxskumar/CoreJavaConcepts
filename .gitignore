@@ -1,2 +1,18 @@
-/bin
-/target/
+# ignore the report directory
+report/
+
+# ignore the logs directory
+logs/
+
+# ignore the target directory
+target/
+
+# ignore the test-output directory
+test-output/
+
+# ignore the eclipse-maven .settings directory as this will auto build itself when using maven
+.settings/
+
+# Adding an exception for the jdt core preferences (using !) to the preceding rule to track a specific file
+#!.settings/org.eclipse.jdt.core.prefs
+/logPath/
